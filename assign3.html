@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Signup Form</h1>
+        <!-- FORM START -->
+        <form class="form-box" action="#" name="myForm" onsubmit="return validateform()" method="post">
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname" >
+            </div>
+            <span class="error" id="nameerror"></span>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="femail">
+            </div>
+            <span class="error" id="emailerror"></span>
+            <div class="phone">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <span class="error" id="phoneerror"></span>
+            <div class="pass">
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" name="pass" >
+            </div>
+            <span class="error" id="passerror"></span>
+            <div class="cpass">
+                <label for="Cpassword">Confirm Password:</label>
+                <input type="password" id="Cpassword" name="cpass" >
+            </div>
+            <span class="error" id="cpasserror"></span>
+            <div class="submit">
+                <button type="submit" class="btn" value="submit">Submit</button>
+            </div>
+        </form>
+        <!-- FORM END -->
+    </div>
+    <script src="assign3.js"></script>
+</body>
+
+</html>
